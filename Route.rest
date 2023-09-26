@@ -1,0 +1,24 @@
+POST http://localhost:3000/items
+
+Content-Type: application/json
+{
+   "id":"TEST",
+    "stock":25,
+    "price":55
+}
+//create new item
+
+###
+GET http://localhost:3000/items
+//retrieve all items
+
+
+# ###
+# GET http://localhost:3000/items/:itemId
+
+
+
+# ###
+# # DELETE  http://localhost:3000/ITEMS/6512da31d82e106d1157a872
+
+# POST http://localhost:3000/invoices
